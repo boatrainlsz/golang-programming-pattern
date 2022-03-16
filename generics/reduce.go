@@ -20,11 +20,11 @@ func gCountIf[T any](arr []T, f func(T) bool) int {
 	return cnt
 }
 
-type Sumable interface{
-type int, int8, int16, int32, int64,
-uint, uint8, uint16, uint32, uint64,
-float32, float64
+//https://bitfieldconsulting.com/golang/generics
+type Sumable interface {
+	int | int8 | int16 | int32 | int64 | uint | uint8 | uint16 | uint32 | uint64 | uintptr | float32 | float64 | string
 }
+
 func gSum[T any, U Sumable](arr []T, f func(T) U) U {
 	var sum U
 	for _, elem := range arr {
