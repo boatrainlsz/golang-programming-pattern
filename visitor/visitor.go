@@ -6,17 +6,17 @@ import (
 	"fmt"
 )
 
-type Visitor func(shape Shape)
+type Visitor1 func(shape Shape)
 
 type Shape interface {
-	accept(Visitor)
+	accept(Visitor1)
 }
 
 type Circle struct {
 	Radius int
 }
 
-func (c Circle) accept(v Visitor) {
+func (c Circle) accept(v Visitor1) {
 	v(c)
 }
 
@@ -24,7 +24,7 @@ type Rectangle struct {
 	Width, Heigh int
 }
 
-func (r Rectangle) accept(v Visitor) {
+func (r Rectangle) accept(v Visitor1) {
 	v(r)
 }
 
