@@ -21,8 +21,9 @@ func gCountIf[T any](arr []T, f func(T) bool) int {
 }
 
 //https://bitfieldconsulting.com/golang/generics
+//~是类型近似符号
 type Sumable interface {
-	int | int8 | int16 | int32 | int64 | uint | uint8 | uint16 | uint32 | uint64 | uintptr | float32 | float64 | string
+	~int | ~int8 | ~int16 | ~int32 | ~int64 | ~uint | ~uint8 | ~uint16 | ~uint32 | ~uint64 | ~uintptr | ~float32 | ~float64 | ~string
 }
 
 func gSum[T any, U Sumable](arr []T, f func(T) U) U {
