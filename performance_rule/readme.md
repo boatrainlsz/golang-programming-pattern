@@ -43,7 +43,7 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 
 | 代码                                                         | 验证结果                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [avoid_unnecessary_initialization_test.go](avoid_unnecessary_initialization_test.go) | [avoid_unnecessary_initialization_test.md](avoid_unnecessary_initialization_test.md) |
+| [avoid_unnecessary_initialization_test.go](datastructure/avoid_unnecessary_initialization_test.go) | [avoid_unnecessary_initialization_test.md](datastructure/avoid_unnecessary_initialization_test.md) |
 
 ### 
 
