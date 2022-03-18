@@ -28,3 +28,9 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [do_not_overuse_reflection_test.go](datastructure/do_not_overuse_reflection_test.go) | [do_not_overuse_reflection_test.md](datastructure/do_not_overuse_reflection_test.md) |
 
+#### 1.3 慎用 binary.Read 和 binary.Write
+
+| 代码                                                         | 验证结果                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [use_binary_read_write_carefully_test.go](datastructure/use_binary_read_write_carefully_test.go) | [use_binary_read_write_carefully_test.md](datastructure/use_binary_read_write_carefully_test.md) |
+
