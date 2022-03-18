@@ -46,5 +46,5 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 
 | 代码                                                         | 验证结果                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [map_capacity_hint_test.go](datastructure/map_capacity_hint_test.go) | [map_capacity_hint_test.md](datastructure/map_capacity_hint_test.go) |
+| [map_capacity_hint_test.go](datastructure/map_capacity_hint_test.go) | [map_capacity_hint_test.md](datastructure/map_capacity_hint_test.md) |
 
