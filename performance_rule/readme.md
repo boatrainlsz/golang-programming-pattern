@@ -41,6 +41,12 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 
 ### 2. 避免重复的字符串到字节切片的转换
 
+| 代码                                                         | 验证结果                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [avoid_unnecessary_initialization_test.go](avoid_unnecessary_initialization_test.go) | [avoid_unnecessary_initialization_test.md](avoid_unnecessary_initialization_test.md) |
+
+### 
+
 </details>
 
 #### 
