@@ -54,5 +54,10 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [slice_capacity_test.go](datastructure/slice_capacity_test.go) | [slice_capacity_test.md](datastructure/slice_capacity_test.md) |
 
+### 4. 字符串拼接方式的选择
 
+#### 4.1 行内拼接字符串推荐使用运算符+
 
+| 代码                                               | 验证结果                                           |
+| -------------------------------------------------- | -------------------------------------------------- |
+| [join_str_test.go](datastructure/join_str_test.go) | [join_str_test.md](datastructure/join_str_test.md) |
