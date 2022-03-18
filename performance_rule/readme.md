@@ -18,3 +18,9 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [strconv_vs_fmt_test.go](datastructure/strconv_vs_fmt_test.go) | [strconv_vs_fmt_test.md](datastructure/strconv_vs_fmt_test.md) |
 
+#### 1.2 少量的重复不比反射差
+
+| 代码                                                         | 验证结果                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [do_not_overuse_reflection_test.go](datastructure/do_not_overuse_reflection_test.go) | [do_not_overuse_reflection_test.md](datastructure/do_not_overuse_reflection_test.md) |
+
