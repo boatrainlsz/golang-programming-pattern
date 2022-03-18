@@ -48,3 +48,11 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [map_capacity_hint_test.go](datastructure/map_capacity_hint_test.go) | [map_capacity_hint_test.md](datastructure/map_capacity_hint_test.md) |
 
+#### 3.2 指定切片容量
+
+| 代码                                                         | 验证结果                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [slice_capacity_test.go](datastructure/slice_capacity_test.go) | [slice_capacity_test.md](datastructure/slice_capacity_test.md) |
+
+
+
