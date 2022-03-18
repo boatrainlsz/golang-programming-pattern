@@ -12,11 +12,6 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 
 
 
-<details>
-<summary>目录</summary>
-
-
-
 ## 常用数据结构
 
 ### 1. 反射虽好，切莫贪杯
@@ -46,7 +41,5 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | [avoid_unnecessary_initialization_test.go](datastructure/avoid_unnecessary_initialization_test.go) | [avoid_unnecessary_initialization_test.md](datastructure/avoid_unnecessary_initialization_test.md) |
 
 ### 
-
-</details>
 
 #### 
