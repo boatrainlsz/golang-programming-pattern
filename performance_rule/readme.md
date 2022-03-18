@@ -14,5 +14,7 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 
 #### 1.1 优先使用 strconv 而不是 fmt
 
-[strconv_vs_fmt_test.go](datastructure/strconv_vs_fmt_test.go)
+| 代码                                                         | 验证结果                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [strconv_vs_fmt_test.go](datastructure/strconv_vs_fmt_test.go) | [strconv_vs_fmt_test.md](datastructure/strconv_vs_fmt_test.md) |
 
