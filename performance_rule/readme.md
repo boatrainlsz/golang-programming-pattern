@@ -40,6 +40,11 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [avoid_unnecessary_initialization_test.go](datastructure/avoid_unnecessary_initialization_test.go) | [avoid_unnecessary_initialization_test.md](datastructure/avoid_unnecessary_initialization_test.md) |
 
-### 
+### 3. 指定容器容量
 
-#### 
+#### 3.1 指定 map 容量提示
+
+| 代码                                                         | 验证结果                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [map_capacity_hint_test.go](datastructure/map_capacity_hint_test.go) | [map_capacity_hint_test.md](datastructure/map_capacity_hint_test.go) |
+
