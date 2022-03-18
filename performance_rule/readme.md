@@ -14,6 +14,15 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 
 ## 常用数据结构
 
+```
+<details>
+<summary>Click to expand</summary>
+
+whatever
+
+</details>
+```
+
 ### 1. 反射虽好，切莫贪杯
 
 #### 1.1 优先使用 strconv 而不是 fmt
@@ -34,3 +43,6 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [use_binary_read_write_carefully_test.go](datastructure/use_binary_read_write_carefully_test.go) | [use_binary_read_write_carefully_test.md](datastructure/use_binary_read_write_carefully_test.md) |
 
+### 2. 避免重复的字符串到字节切片的转换
+
+#### 
