@@ -88,3 +88,12 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [iterate_struct_pointer_test.go](datastructure/iterate_struct_pointer_test.go) | [iterate_struct_pointer_test.md](datastructure/iterate_struct_pointer_test.md) |
 
+## 内存管理
+
+### 1.使用空结构体节省内存
+
+#### 1.1 不占内存空间
+
+| 代码                                                         | 验证结果 |
+| ------------------------------------------------------------ | -------- |
+| [size_of_empty_struct_test.go](datastructure/size_of_empty_struct_test.go) | 0        |
