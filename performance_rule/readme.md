@@ -68,4 +68,10 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [str_join_builder_buffer_byte_test.go](datastructure/str_join_builder_buffer_byte_test.go) | [str_join_builder_buffer_byte_test.md](datastructure/str_join_builder_buffer_byte_test.md) |
 
-#### 
+### 5. 遍历 []struct{} 使用下标而不是 range
+
+#### 5.1 []int，for与range基本无差别
+
+| 代码                                                     | 验证结果                                                 |
+| -------------------------------------------------------- | -------------------------------------------------------- |
+| [iterate_int_test.go](datastructure/iterate_int_test.go) | [iterate_int_test.md](datastructure/iterate_int_test.md) |
