@@ -70,13 +70,13 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 
 ### 5. 遍历 []struct{} 使用下标而不是 range
 
-#### 5.1 []int，for与range基本无差别
+#### 5.1 []int，index与range基本无差别
 
 | 代码                                                     | 验证结果                                                 |
 | -------------------------------------------------------- | -------------------------------------------------------- |
 | [iterate_int_test.go](datastructure/iterate_int_test.go) | [iterate_int_test.md](datastructure/iterate_int_test.md) |
 
-#### 5.2 []struct{}，for性能更优
+#### 5.2 []struct{}，index性能更优
 
 | 代码                                                         | 验证结果                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
