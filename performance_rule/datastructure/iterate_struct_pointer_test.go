@@ -2,16 +2,16 @@ package datastructure
 
 import "testing"
 
-type Item struct {
+type Item1 struct {
 	id  int
 	val [1024]byte
 }
 
-// genItems 生成指定长度 []*Item 切片
-func genItems(n int) []*Item {
-	items := make([]*Item, 0, n)
+// genItems 生成指定长度 []*Item1 切片
+func genItems(n int) []*Item1 {
+	items := make([]*Item1, 0, n)
 	for i := 0; i < n; i++ {
-		items = append(items, &Item{id: i})
+		items = append(items, &Item1{id: i})
 	}
 	return items
 }

@@ -2,6 +2,11 @@ package datastructure
 
 import "testing"
 
+type Item struct {
+	id  int
+	val [1024]byte
+}
+
 func BenchmarkIndexStructSlice(b *testing.B) {
 	var items [1024]Item
 	for i := 0; i < b.N; i++ {
