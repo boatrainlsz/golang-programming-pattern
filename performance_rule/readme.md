@@ -97,3 +97,10 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | 代码                                                         | 验证结果 |
 | ------------------------------------------------------------ | -------- |
 | [size_of_empty_struct_test.go](datastructure/size_of_empty_struct_test.go) | 0        |
+
+#### 1.2.1 实现集合（Set）
+
+| 代码                                     | 验证结果 |
+| ---------------------------------------- | -------- |
+| [set_test.go](datastructure/set_test.go) |          |
+
