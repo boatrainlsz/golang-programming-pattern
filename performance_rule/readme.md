@@ -82,3 +82,9 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [iterate_struct_test.go](datastructure/iterate_struct_test.go) | [iterate_struct_test.md](datastructure/iterate_struct_test.md) |
 
+#### 5.3 []*struct，因为有了指针，index与range基本无差别
+
+| 代码                                                         | 验证结果                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [iterate_struct_pointer_test.go](datastructure/iterate_struct_pointer_test.go) | [iterate_struct_pointer_test.md](datastructure/iterate_struct_pointer_test.md) |
+
