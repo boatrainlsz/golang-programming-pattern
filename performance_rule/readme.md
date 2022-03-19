@@ -75,3 +75,10 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | 代码                                                     | 验证结果                                                 |
 | -------------------------------------------------------- | -------------------------------------------------------- |
 | [iterate_int_test.go](datastructure/iterate_int_test.go) | [iterate_int_test.md](datastructure/iterate_int_test.md) |
+
+#### 5.2 []struct{}，for性能更优
+
+| 代码                                                         | 验证结果                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [iterate_struct_test.go](datastructure/iterate_struct_test.go) | [iterate_struct_test.md](datastructure/iterate_struct_test.md) |
+
