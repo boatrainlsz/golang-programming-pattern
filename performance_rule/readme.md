@@ -100,7 +100,7 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 
 #### 1.2.1 实现集合（Set）
 
-| 代码                                     | 验证结果 |
-| ---------------------------------------- | -------- |
-| [set_test.go](datastructure/set_test.go) |          |
+| 代码                                     | 验证结果                                                     |
+| ---------------------------------------- | ------------------------------------------------------------ |
+| [set_test.go](datastructure/set_test.go) | goos: windows<br/>goarch: amd64<br/>cpu: AMD Ryzen 5 4600U with Radeon Graphics<br/>BenchmarkIndexPointer<br/>BenchmarkIndexPointer-12         1629548               695.4 ns/op<br/>BenchmarkRangePointer<br/>BenchmarkRangePointer-12         1740858               661.9 ns/op |
 
