@@ -61,3 +61,11 @@ cpu: AMD Ryzen 5 4600U with Radeon Graphics
 | 代码                                               | 验证结果                                           |
 | -------------------------------------------------- | -------------------------------------------------- |
 | [join_str_test.go](datastructure/join_str_test.go) | [join_str_test.md](datastructure/join_str_test.md) |
+
+#### 4.2 非行内拼接字符串推荐使用 strings.Builder
+
+| 代码                                                         | 验证结果                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [str_join_builder_buffer_byte_test.go](datastructure/str_join_builder_buffer_byte_test.go) | [str_join_builder_buffer_byte_test.md](datastructure/str_join_builder_buffer_byte_test.md) |
+
+#### 
